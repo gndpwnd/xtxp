@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    color: #7DF9FF;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin: 0;
+  }
+  
+  ol li {
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+  }
+  
+  ol li a {
+    color: #7DF9FF;
+    text-decoration: none;
+  }
+  
+  ol li a:hover {
+    color: #0366d6;
+  }
+  
