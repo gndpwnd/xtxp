@@ -1,0 +1,52 @@
+/* Reset default margin and padding */
+body,
+h1,
+button,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set body font and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style heading */
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style buttons */
+button {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Style extension list */
+#extensionList {
+  margin-top: 10px;
+}
+
+a {
+  display: block;
+  margin-bottom: 5px;
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
